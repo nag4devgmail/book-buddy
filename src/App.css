@@ -28,6 +28,99 @@
   color: #61dafb;
 }
 
+.table-lg {
+  font-size: 1.2rem; /* Adjust the font size as needed */
+}
+
+/* No need to add additional styles for left-aligning content, as it's the default behavior */
+
+.header-row {
+  background-color: #007bff; /* Header row background color */
+  color: white; /* Header row text color */
+}
+
+.even-row {
+  background-color: #f2f2f2; /* Alternate row background color */
+}
+
+.odd-row {
+  /* No need to define odd-row background color, as the default background color will be used */
+}
+
+.separator-row td {
+  border-bottom: 2px solid #dee2e6; /* Color for the line separator */
+}
+
+.search-results-container {
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.book-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.book-image-container img {
+  max-width: 100px; /* Adjust the max width of the image */
+  max-height: 150px; /* Adjust the max height of the image */
+}
+
+.search-results-table {
+  padding-left: 15px; /* Adjust the left padding as needed */
+  padding-right: 15px; /* Adjust the right padding as needed */
+}
+
+.input-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+.btn-lg {
+  padding: 10px 20px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+  margin-left: 10px; /* Add margin to the left of the button */
+}
+
+.search-results-table {
+  width: 80%; /* Set the width to 80% of the parent container */
+  margin: 0 auto; /* Center the table horizontally */
+  padding-left: 15px; /* Add left padding for better alignment */
+  padding-right: 15px; /* Add right padding for better alignment */
+  border: 2px solid #dee2e6; /* Add a solid border with a light gray color */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+}
+
+
+.btn-sm {
+  padding: 0.375rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+
+
+
+
+/* No need to define .odd-row, as the default background color will be used */
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
